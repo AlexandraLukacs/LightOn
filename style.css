@@ -4,5 +4,5 @@ body{
     padding: 0;
 }
 .elem{
-    border-style: 1px dashed;
+    border: 1px groove black;
 }
