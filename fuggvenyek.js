@@ -1,5 +1,5 @@
 export function lista(){
-    lista = [];
+    const lista = [];
     for (let index = 0; index < 8; index++) {
         let szamok = Math.floor(Math.random()*2);
         lista.push(szamok);
@@ -8,7 +8,7 @@ export function lista(){
 }
 
 export function osszeAllit(lista){
-    
+
 }
 
 export function szinValto(lista){
