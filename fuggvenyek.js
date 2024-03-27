@@ -8,9 +8,12 @@ export function lista(){
 }
 
 export function osszeAllit(lista){
+    
 
 }
 
 export function szinValto(lista){
-
+    const ELEM = $("#korok").on("click", "div", function() {
+        const ELEM2 = $(".elem").html($(this).html());
+    });
 }
