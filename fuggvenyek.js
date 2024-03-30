@@ -7,18 +7,20 @@ export function lista(){
     return lista
 }
 
-export function osszeAllit(lista){
-    txt = " ";
-    for (let i = 0; i < lista[i]; i++) {
-        if(0){
+export function osszeAllit(){
+    const ELEM = $("#korok")
+    let txt = " ";
+    for (let i = 0; i < lista.lenght; i++) {
+        if(lista[i] === 0){
             txt += `<div style="background-color : yellow"></div>`;
         }else{
             txt += `<div style="background-color : green"></div>`;
         }
     }
+
     txt += " ";
 
-    return txt;
+    ELEM.html(txt);
 
 }
 
