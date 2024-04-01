@@ -25,7 +25,7 @@ export function osszeAllit(lista){
 }
 
 export function szinValto(lista){
-    const ELEM = $("#korok").on("click", function() {
+    const ELEM = $(".elem").on("click", function() {
         for (let i = 0; i < lista.length; i++) {
             const ELEM2 = $(".elem").html($(this).html());
             if(lista[i] === 0){
