@@ -4,7 +4,6 @@ export function lista(){
         let szamok = Math.floor(Math.random()*2);
         lista.push(szamok);
     }
-    console.log(lista)
     return lista
 }
 
@@ -14,10 +13,8 @@ export function osszeAllit(lista){
     for (let i = 0; i < lista.length; i++) {
         if(lista[i] === 0){
             txt += `<div class=".elem" style="background-color : yellow"></div>`;
-            console.log(txt)
         }else{
             txt += `<div class=".elem" style="background-color : green"></div>`;
-            console.log(txt)
         }
     }
 
