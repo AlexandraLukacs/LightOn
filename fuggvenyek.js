@@ -34,5 +34,11 @@ export function szinValto(lista){
                 ELEM2.css("background-color", "yellow");
             }
         }
-    });
+    })
+}
+
+export function ujJatek(){
+    const ELEM = $("button").on("click", function(){
+        osszeAllit(lista());
+    })
 }

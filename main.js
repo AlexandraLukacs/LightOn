@@ -1,4 +1,6 @@
-import { lista, osszeAllit, szinValto } from "./fuggvenyek.js";
+import { lista, osszeAllit, szinValto, ujJatek } from "./fuggvenyek.js";
 
 osszeAllit(lista());
 szinValto(lista());
+ujJatek();
+
