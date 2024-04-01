@@ -7,8 +7,8 @@ export function lista(){
     return lista
 }
 
-export function osszeAllit(){
-    const ELEM = $("#korok")
+export function osszeAllit(lista){
+    const ELEM = $("#korok");
     let txt = " ";
     for (let i = 0; i < lista.lenght; i++) {
         if(lista[i] === 0){
