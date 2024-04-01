@@ -25,7 +25,14 @@ export function osszeAllit(lista){
 }
 
 export function szinValto(lista){
-    const ELEM = $("#korok").on("click", "div", function() {
-        const ELEM2 = $(".elem").html($(this).html());
+    const ELEM = $("#korok").on("click", function() {
+        for (let i = 0; i < lista.length; i++) {
+            const ELEM2 = $(".elem").html($(this).html());
+            if(lista[i] === 0){
+                ELEM2.css("background-color", "green");
+            }else{
+                ELEM2.css("background-color", "yellow");
+            }
+        }
     });
 }
