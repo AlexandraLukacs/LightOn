@@ -12,9 +12,11 @@ export function osszeAllit(lista){
     let txt = " ";
     for (let i = 0; i < lista.length; i++) {
         if(lista[i] === 0){
-            txt += `<div class=".elem" style="background-color : yellow"></div>`;
+            txt += `<div class="elem" style="background-color : yellow"></div>`;
+            console.log(txt)
         }else{
-            txt += `<div class=".elem" style="background-color : green"></div>`;
+            txt += `<div class="elem" style="background-color : green"></div>`;
+            console.log(txt)
         }
     }
 
