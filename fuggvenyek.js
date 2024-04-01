@@ -37,5 +37,6 @@ export function szinValto(lista){
 export function ujJatek(){
     const ELEM = $("button").on("click", function(){
         osszeAllit(lista());
+        szinValto(lista());
     })
 }
