@@ -19,5 +19,9 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 200px;
+    padding: 15px;
+}
+button{
+    margin: 10px;
 }
 
