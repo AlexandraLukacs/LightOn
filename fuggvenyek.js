@@ -59,16 +59,3 @@ function szv(index) {
     ELEM.eq(index).css("background-color", "green");
   }
 }
-export function szomszedosOldal(szinValto) {
-  if (i % 3 !== 0) {
-    szinValto();
-  }
-  if (i % 3 !== 2) {
-  }
-  if (i >= 3) {
-  }
-  if (i < 6) {
-  }
-}
-
-
