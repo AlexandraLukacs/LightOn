@@ -24,24 +24,25 @@ export function osszeAllit(lista) {
 }
 
 export function szinValto(lista) {
-  const ELEM = $(".elem");
-  ELEM.on("click", function (event) {
-    let i = event.target.id;
-    szv(i);
-    if (i % 3 !== 0) {
-      szv(i - 1);
-    }
-    if (i % 3 !== 2) {
-      szv(i + 1);
-    }
-    if (i >= 3) {
-      szv(i - 1);
-    }
-    if (i < 2) {
-      szv(i + 1);
-    }
-  });
-}
+    const ELEM = $(".elem");
+    ELEM.on("click", function (event) {
+    let i = parseInt(event.target.id);
+      szv(i);
+      if (i % 3 !== 0) {
+        szv(i - 1);
+      }
+      if (i % 3 !== 2) {
+        szv(i + 1);
+      }
+      if (i >= 3) {
+        szv(i - 3);
+      }
+      if (i < 6) {
+        szv(i + 3);
+      }
+    });
+  }
+  
 
 export function ujJatek() {
   const ELEM = $("button").on("click", function () {
@@ -66,6 +67,8 @@ export function szomszedosOldal(szinValto) {
   }
   if (i >= 3) {
   }
-  if (i < 2) {
+  if (i < 6) {
   }
 }
+
+

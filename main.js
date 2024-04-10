@@ -1,4 +1,4 @@
-import { lista, osszeAllit, szinValto, ujJatek , szomszedosOldal} from "./fuggvenyek.js";
+import { lista, osszeAllit, szinValto, ujJatek, szomszedosOldal} from "./fuggvenyek.js";
 
 osszeAllit(lista());
 szinValto(lista());
