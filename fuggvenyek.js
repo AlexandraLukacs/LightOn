@@ -59,3 +59,5 @@ function szv(index) {
     ELEM.eq(index).css("background-color", "green");
   }
 }
+
+
